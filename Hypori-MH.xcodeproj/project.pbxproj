@@ -8,14 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		E6E2787026AAE0CD002E58E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */; };
-		E6E2787326AAE0CD002E58E9 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2787226AAE0CD002E58E9 /* SceneDelegate.m */; };
-		E6E2787626AAE0CD002E58E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2787526AAE0CD002E58E9 /* ViewController.m */; };
 		E6E2787926AAE0CD002E58E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787726AAE0CD002E58E9 /* Main.storyboard */; };
 		E6E2787B26AAE0D1002E58E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787A26AAE0D1002E58E9 /* Assets.xcassets */; };
 		E6E2787E26AAE0D1002E58E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787C26AAE0D1002E58E9 /* LaunchScreen.storyboard */; };
 		E6E2788126AAE0D1002E58E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2788026AAE0D1002E58E9 /* main.m */; };
 		E6E2788B26AAE0D2002E58E9 /* Hypori_MHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2788A26AAE0D2002E58E9 /* Hypori_MHTests.m */; };
 		E6E2789626AAE0D2002E58E9 /* Hypori_MHUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2789526AAE0D2002E58E9 /* Hypori_MHUITests.m */; };
+		E6E278A626AAE857002E58E9 /* FilmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278A526AAE857002E58E9 /* FilmsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,10 +38,6 @@
 		E6E2786B26AAE0CD002E58E9 /* Hypori-MH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypori-MH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E2786E26AAE0CD002E58E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		E6E2787126AAE0CD002E58E9 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		E6E2787226AAE0CD002E58E9 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		E6E2787426AAE0CD002E58E9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E6E2787526AAE0CD002E58E9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		E6E2787826AAE0CD002E58E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E6E2787A26AAE0D1002E58E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E6E2787D26AAE0D1002E58E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +49,8 @@
 		E6E2789126AAE0D2002E58E9 /* Hypori-MHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hypori-MHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E2789526AAE0D2002E58E9 /* Hypori_MHUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hypori_MHUITests.m; sourceTree = "<group>"; };
 		E6E2789726AAE0D2002E58E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6E278A426AAE857002E58E9 /* FilmsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilmsViewController.h; sourceTree = "<group>"; };
+		E6E278A526AAE857002E58E9 /* FilmsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,10 +103,7 @@
 			children = (
 				E6E2786E26AAE0CD002E58E9 /* AppDelegate.h */,
 				E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */,
-				E6E2787126AAE0CD002E58E9 /* SceneDelegate.h */,
-				E6E2787226AAE0CD002E58E9 /* SceneDelegate.m */,
-				E6E2787426AAE0CD002E58E9 /* ViewController.h */,
-				E6E2787526AAE0CD002E58E9 /* ViewController.m */,
+				E6E278A326AAE83A002E58E9 /* UI */,
 				E6E2787726AAE0CD002E58E9 /* Main.storyboard */,
 				E6E2787A26AAE0D1002E58E9 /* Assets.xcassets */,
 				E6E2787C26AAE0D1002E58E9 /* LaunchScreen.storyboard */,
@@ -135,6 +129,15 @@
 				E6E2789726AAE0D2002E58E9 /* Info.plist */,
 			);
 			path = "Hypori-MHUITests";
+			sourceTree = "<group>";
+		};
+		E6E278A326AAE83A002E58E9 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E6E278A426AAE857002E58E9 /* FilmsViewController.h */,
+				E6E278A526AAE857002E58E9 /* FilmsViewController.m */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,10 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6E2787626AAE0CD002E58E9 /* ViewController.m in Sources */,
+				E6E278A626AAE857002E58E9 /* FilmsViewController.m in Sources */,
 				E6E2787026AAE0CD002E58E9 /* AppDelegate.m in Sources */,
 				E6E2788126AAE0D1002E58E9 /* main.m in Sources */,
-				E6E2787326AAE0CD002E58E9 /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -449,7 +451,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eldersoss.Hypori-MH";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -466,7 +468,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eldersoss.Hypori-MH";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
