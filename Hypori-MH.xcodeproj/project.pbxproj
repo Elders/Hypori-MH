@@ -3,18 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E2244D32D86EF8A217226839 /* Pods_Hypori_MHTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD00C1FDBE123811987FF37 /* Pods_Hypori_MHTests.framework */; };
 		E6E2787026AAE0CD002E58E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */; };
 		E6E2787926AAE0CD002E58E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787726AAE0CD002E58E9 /* Main.storyboard */; };
 		E6E2787B26AAE0D1002E58E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787A26AAE0D1002E58E9 /* Assets.xcassets */; };
 		E6E2787E26AAE0D1002E58E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787C26AAE0D1002E58E9 /* LaunchScreen.storyboard */; };
 		E6E2788126AAE0D1002E58E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2788026AAE0D1002E58E9 /* main.m */; };
 		E6E2788B26AAE0D2002E58E9 /* Hypori_MHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2788A26AAE0D2002E58E9 /* Hypori_MHTests.m */; };
-		E6E2789626AAE0D2002E58E9 /* Hypori_MHUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2789526AAE0D2002E58E9 /* Hypori_MHUITests.m */; };
 		E6E278A626AAE857002E58E9 /* FilmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278A526AAE857002E58E9 /* FilmsViewController.m */; };
+		F9F1293C9481B3321C9E86C9 /* Pods_Hypori_MH_iOS_Hypori_MH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B73ED5FCA9F90034155126 /* Pods_Hypori_MH_iOS_Hypori_MH.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -25,16 +26,13 @@
 			remoteGlobalIDString = E6E2786A26AAE0CD002E58E9;
 			remoteInfo = "Hypori-MH";
 		};
-		E6E2789226AAE0D2002E58E9 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = E6E2786326AAE0CD002E58E9 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E6E2786A26AAE0CD002E58E9;
-			remoteInfo = "Hypori-MH";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55B8F30BB81369AF6ED33F31 /* Pods-Hypori-MHTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hypori-MHTests.debug.xcconfig"; path = "Target Support Files/Pods-Hypori-MHTests/Pods-Hypori-MHTests.debug.xcconfig"; sourceTree = "<group>"; };
+		69F101CFCB3324C81C18B5AC /* Pods-Hypori-MHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hypori-MHTests.release.xcconfig"; path = "Target Support Files/Pods-Hypori-MHTests/Pods-Hypori-MHTests.release.xcconfig"; sourceTree = "<group>"; };
+		84B73ED5FCA9F90034155126 /* Pods_Hypori_MH_iOS_Hypori_MH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hypori_MH_iOS_Hypori_MH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB168BA0C1B9385AECB709C1 /* Pods-Hypori-MH-iOS-Hypori-MH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hypori-MH-iOS-Hypori-MH.debug.xcconfig"; path = "Target Support Files/Pods-Hypori-MH-iOS-Hypori-MH/Pods-Hypori-MH-iOS-Hypori-MH.debug.xcconfig"; sourceTree = "<group>"; };
 		E6E2786B26AAE0CD002E58E9 /* Hypori-MH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypori-MH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E2786E26AAE0CD002E58E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,11 +44,13 @@
 		E6E2788626AAE0D2002E58E9 /* Hypori-MHTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hypori-MHTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E2788A26AAE0D2002E58E9 /* Hypori_MHTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hypori_MHTests.m; sourceTree = "<group>"; };
 		E6E2788C26AAE0D2002E58E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E6E2789126AAE0D2002E58E9 /* Hypori-MHUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Hypori-MHUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E6E2789526AAE0D2002E58E9 /* Hypori_MHUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Hypori_MHUITests.m; sourceTree = "<group>"; };
-		E6E2789726AAE0D2002E58E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6E278A426AAE857002E58E9 /* FilmsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilmsViewController.h; sourceTree = "<group>"; };
 		E6E278A526AAE857002E58E9 /* FilmsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmsViewController.m; sourceTree = "<group>"; };
+		E6E278A726AAE9A4002E58E9 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E6E278A826AAEA78002E58E9 /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
+		E6E278A926AAEA89002E58E9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		ECD00C1FDBE123811987FF37 /* Pods_Hypori_MHTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hypori_MHTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE9D54BC6DB90B874D1A54D /* Pods-Hypori-MH-iOS-Hypori-MH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hypori-MH-iOS-Hypori-MH.release.xcconfig"; path = "Target Support Files/Pods-Hypori-MH-iOS-Hypori-MH/Pods-Hypori-MH-iOS-Hypori-MH.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F9F1293C9481B3321C9E86C9 /* Pods_Hypori_MH_iOS_Hypori_MH.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,26 +66,44 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		E6E2788E26AAE0D2002E58E9 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				E2244D32D86EF8A217226839 /* Pods_Hypori_MHTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BEF1CF3E9761D8263052898 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84B73ED5FCA9F90034155126 /* Pods_Hypori_MH_iOS_Hypori_MH.framework */,
+				ECD00C1FDBE123811987FF37 /* Pods_Hypori_MHTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D782F30A1D877EE1D4C7D08B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BB168BA0C1B9385AECB709C1 /* Pods-Hypori-MH-iOS-Hypori-MH.debug.xcconfig */,
+				ECE9D54BC6DB90B874D1A54D /* Pods-Hypori-MH-iOS-Hypori-MH.release.xcconfig */,
+				55B8F30BB81369AF6ED33F31 /* Pods-Hypori-MHTests.debug.xcconfig */,
+				69F101CFCB3324C81C18B5AC /* Pods-Hypori-MHTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E6E2786226AAE0CD002E58E9 = {
 			isa = PBXGroup;
 			children = (
+				E6E278A926AAEA89002E58E9 /* .gitignore */,
+				E6E278A726AAE9A4002E58E9 /* Podfile */,
+				E6E278A826AAEA78002E58E9 /* Podfile.lock */,
 				E6E2786D26AAE0CD002E58E9 /* Hypori-MH */,
 				E6E2788926AAE0D2002E58E9 /* Hypori-MHTests */,
-				E6E2789426AAE0D2002E58E9 /* Hypori-MHUITests */,
 				E6E2786C26AAE0CD002E58E9 /* Products */,
+				D782F30A1D877EE1D4C7D08B /* Pods */,
+				1BEF1CF3E9761D8263052898 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,7 +112,6 @@
 			children = (
 				E6E2786B26AAE0CD002E58E9 /* Hypori-MH.app */,
 				E6E2788626AAE0D2002E58E9 /* Hypori-MHTests.xctest */,
-				E6E2789126AAE0D2002E58E9 /* Hypori-MHUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -122,15 +140,6 @@
 			path = "Hypori-MHTests";
 			sourceTree = "<group>";
 		};
-		E6E2789426AAE0D2002E58E9 /* Hypori-MHUITests */ = {
-			isa = PBXGroup;
-			children = (
-				E6E2789526AAE0D2002E58E9 /* Hypori_MHUITests.m */,
-				E6E2789726AAE0D2002E58E9 /* Info.plist */,
-			);
-			path = "Hypori-MHUITests";
-			sourceTree = "<group>";
-		};
 		E6E278A326AAE83A002E58E9 /* UI */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,9 +156,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6E2789A26AAE0D2002E58E9 /* Build configuration list for PBXNativeTarget "Hypori-MH" */;
 			buildPhases = (
+				5FC2DBCEA836AD56ACB7AF57 /* [CP] Check Pods Manifest.lock */,
 				E6E2786726AAE0CD002E58E9 /* Sources */,
 				E6E2786826AAE0CD002E58E9 /* Frameworks */,
 				E6E2786926AAE0CD002E58E9 /* Resources */,
+				92CEFDAA7D07F095DD320667 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -164,6 +175,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6E2789D26AAE0D2002E58E9 /* Build configuration list for PBXNativeTarget "Hypori-MHTests" */;
 			buildPhases = (
+				EDA3031EA43034779A69ABAC /* [CP] Check Pods Manifest.lock */,
 				E6E2788226AAE0D2002E58E9 /* Sources */,
 				E6E2788326AAE0D2002E58E9 /* Frameworks */,
 				E6E2788426AAE0D2002E58E9 /* Resources */,
@@ -178,24 +190,6 @@
 			productReference = E6E2788626AAE0D2002E58E9 /* Hypori-MHTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		E6E2789026AAE0D2002E58E9 /* Hypori-MHUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = E6E278A026AAE0D2002E58E9 /* Build configuration list for PBXNativeTarget "Hypori-MHUITests" */;
-			buildPhases = (
-				E6E2788D26AAE0D2002E58E9 /* Sources */,
-				E6E2788E26AAE0D2002E58E9 /* Frameworks */,
-				E6E2788F26AAE0D2002E58E9 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				E6E2789326AAE0D2002E58E9 /* PBXTargetDependency */,
-			);
-			name = "Hypori-MHUITests";
-			productName = "Hypori-MHUITests";
-			productReference = E6E2789126AAE0D2002E58E9 /* Hypori-MHUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -208,10 +202,6 @@
 						CreatedOnToolsVersion = 12.5.1;
 					};
 					E6E2788526AAE0D2002E58E9 = {
-						CreatedOnToolsVersion = 12.5.1;
-						TestTargetID = E6E2786A26AAE0CD002E58E9;
-					};
-					E6E2789026AAE0D2002E58E9 = {
 						CreatedOnToolsVersion = 12.5.1;
 						TestTargetID = E6E2786A26AAE0CD002E58E9;
 					};
@@ -232,7 +222,6 @@
 			targets = (
 				E6E2786A26AAE0CD002E58E9 /* Hypori-MH */,
 				E6E2788526AAE0D2002E58E9 /* Hypori-MHTests */,
-				E6E2789026AAE0D2002E58E9 /* Hypori-MHUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,14 +244,71 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6E2788F26AAE0D2002E58E9 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5FC2DBCEA836AD56ACB7AF57 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hypori-MH-iOS-Hypori-MH-checkManifestLockResult.txt",
+			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		92CEFDAA7D07F095DD320667 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hypori-MH-iOS-Hypori-MH/Pods-Hypori-MH-iOS-Hypori-MH-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Hypori-MH-iOS-Hypori-MH/Pods-Hypori-MH-iOS-Hypori-MH-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Hypori-MH-iOS-Hypori-MH/Pods-Hypori-MH-iOS-Hypori-MH-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDA3031EA43034779A69ABAC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Hypori-MHTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E6E2786726AAE0CD002E58E9 /* Sources */ = {
@@ -283,14 +329,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E6E2788D26AAE0D2002E58E9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E6E2789626AAE0D2002E58E9 /* Hypori_MHUITests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -298,11 +336,6 @@
 			isa = PBXTargetDependency;
 			target = E6E2786A26AAE0CD002E58E9 /* Hypori-MH */;
 			targetProxy = E6E2788726AAE0D2002E58E9 /* PBXContainerItemProxy */;
-		};
-		E6E2789326AAE0D2002E58E9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E6E2786A26AAE0CD002E58E9 /* Hypori-MH */;
-			targetProxy = E6E2789226AAE0D2002E58E9 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -440,7 +473,9 @@
 		};
 		E6E2789B26AAE0D2002E58E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB168BA0C1B9385AECB709C1 /* Pods-Hypori-MH-iOS-Hypori-MH.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -457,7 +492,9 @@
 		};
 		E6E2789C26AAE0D2002E58E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ECE9D54BC6DB90B874D1A54D /* Pods-Hypori-MH-iOS-Hypori-MH.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,11 +511,11 @@
 		};
 		E6E2789E26AAE0D2002E58E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55B8F30BB81369AF6ED33F31 /* Pods-Hypori-MHTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Hypori-MHTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -486,18 +523,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eldersoss.Hypori-MHTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hypori-MH.app/Hypori-MH";
 			};
 			name = Debug;
 		};
 		E6E2789F26AAE0D2002E58E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69F101CFCB3324C81C18B5AC /* Pods-Hypori-MHTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Hypori-MHTests/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -505,42 +542,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eldersoss.Hypori-MHTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hypori-MH.app/Hypori-MH";
-			};
-			name = Release;
-		};
-		E6E278A126AAE0D2002E58E9 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Hypori-MHUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eldersoss.Hypori-MHUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Hypori-MH";
-			};
-			name = Debug;
-		};
-		E6E278A226AAE0D2002E58E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "Hypori-MHUITests/Info.plist";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.eldersoss.Hypori-MHUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "Hypori-MH";
 			};
 			name = Release;
 		};
@@ -570,15 +573,6 @@
 			buildConfigurations = (
 				E6E2789E26AAE0D2002E58E9 /* Debug */,
 				E6E2789F26AAE0D2002E58E9 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		E6E278A026AAE0D2002E58E9 /* Build configuration list for PBXNativeTarget "Hypori-MHUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E6E278A126AAE0D2002E58E9 /* Debug */,
-				E6E278A226AAE0D2002E58E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
