@@ -1,22 +1,20 @@
 PODS:
-  - SDWebImage (5.11.1):
-    - SDWebImage/Core (= 5.11.1)
-  - SDWebImage/Core (5.11.1)
-  - SkeletonView (1.21.1)
+  - OCMapper (2.1)
+  - SkeletonView (1.21.2)
 
 DEPENDENCIES:
-  - SDWebImage
+  - OCMapper
   - SkeletonView
 
 SPEC REPOS:
   trunk:
-    - SDWebImage
+    - OCMapper
     - SkeletonView
 
 SPEC CHECKSUMS:
-  SDWebImage: a7f831e1a65eb5e285e3fb046a23fcfbf08e696d
-  SkeletonView: 5b79eb6e09d2a7f3d2e620d34ff97510a1c763e9
+  OCMapper: fa22e7b51de7cc38e66b993037076d28a0f31b29
+  SkeletonView: a085533443fed0198309f1979780afb6e80eaedd
 
-PODFILE CHECKSUM: 2ba0de7b7865354bcf83baad96b59f0e9dc19279
+PODFILE CHECKSUM: cee53d04b6f6a696a025ead92a3bd8ed974c6bcf
 
 COCOAPODS: 1.10.1

@@ -8,6 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		E2244D32D86EF8A217226839 /* Pods_Hypori_MHTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECD00C1FDBE123811987FF37 /* Pods_Hypori_MHTests.framework */; };
+		E65624FB26AC74AD00F3C969 /* NetworkClient.h in Headers */ = {isa = PBXBuildFile; fileRef = E6E278B026AAF417002E58E9 /* NetworkClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E65624FE26ACA5B400F3C969 /* StarWarsAPITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E65624FD26ACA5B400F3C969 /* StarWarsAPITests.m */; };
+		E656250126ACA5E200F3C969 /* StarWarsAPI+Mock.m in Sources */ = {isa = PBXBuildFile; fileRef = E656250026ACA5E200F3C969 /* StarWarsAPI+Mock.m */; };
+		E656250526AD75A000F3C969 /* NSArray+Map.h in Headers */ = {isa = PBXBuildFile; fileRef = E656250326AD75A000F3C969 /* NSArray+Map.h */; };
+		E656250626AD75A000F3C969 /* NSArray+Map.m in Sources */ = {isa = PBXBuildFile; fileRef = E656250426AD75A000F3C969 /* NSArray+Map.m */; };
+		E656250B26AD79B100F3C969 /* NSObject+Mappable.h in Headers */ = {isa = PBXBuildFile; fileRef = E656250926AD79B100F3C969 /* NSObject+Mappable.h */; };
+		E656250C26AD79B100F3C969 /* NSObject+Mappable.m in Sources */ = {isa = PBXBuildFile; fileRef = E656250A26AD79B100F3C969 /* NSObject+Mappable.m */; };
+		E656250E26AD7B0400F3C969 /* Mappable.h in Headers */ = {isa = PBXBuildFile; fileRef = E656250D26AD7B0400F3C969 /* Mappable.h */; };
+		E656251326AD7ED200F3C969 /* InCodeMappingProvider+URL.h in Headers */ = {isa = PBXBuildFile; fileRef = E656251126AD7ED200F3C969 /* InCodeMappingProvider+URL.h */; };
+		E656251426AD7ED200F3C969 /* InCodeMappingProvider+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = E656251226AD7ED200F3C969 /* InCodeMappingProvider+URL.m */; };
+		E656251726AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = E656251526AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.h */; };
+		E656251826AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = E656251626AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.m */; };
 		E6E2787026AAE0CD002E58E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */; };
 		E6E2787926AAE0CD002E58E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787726AAE0CD002E58E9 /* Main.storyboard */; };
 		E6E2787B26AAE0D1002E58E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787A26AAE0D1002E58E9 /* Assets.xcassets */; };
@@ -15,6 +27,15 @@
 		E6E2788126AAE0D1002E58E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2788026AAE0D1002E58E9 /* main.m */; };
 		E6E2788B26AAE0D2002E58E9 /* Hypori_MHTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2788A26AAE0D2002E58E9 /* Hypori_MHTests.m */; };
 		E6E278A626AAE857002E58E9 /* FilmsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278A526AAE857002E58E9 /* FilmsViewController.m */; };
+		E6E278AD26AAF3BE002E58E9 /* StarWarsAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278AC26AAF3BE002E58E9 /* StarWarsAPI.m */; };
+		E6E278B226AAF417002E58E9 /* NetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278B126AAF417002E58E9 /* NetworkClient.m */; };
+		E6E278B926AAF820002E58E9 /* NSURLSessionTask+Cancellable.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278B826AAF820002E58E9 /* NSURLSessionTask+Cancellable.m */; };
+		E6E278BC26AAF877002E58E9 /* AnyCancellable.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278BB26AAF877002E58E9 /* AnyCancellable.m */; };
+		E6E278C026AC2180002E58E9 /* Page.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278BF26AC2180002E58E9 /* Page.m */; };
+		E6E278C326AC218B002E58E9 /* Film.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278C226AC218B002E58E9 /* Film.m */; };
+		E6E278C626AC331E002E58E9 /* NSError+API.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278C526AC331E002E58E9 /* NSError+API.m */; };
+		E6E278CA26AC3544002E58E9 /* MockNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E278C926AC3544002E58E9 /* MockNetworkClient.m */; };
+		E6E278CE26AC361D002E58E9 /* APIMocks.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E6E278CD26AC361D002E58E9 /* APIMocks.bundle */; };
 		F9F1293C9481B3321C9E86C9 /* Pods_Hypori_MH_iOS_Hypori_MH.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84B73ED5FCA9F90034155126 /* Pods_Hypori_MH_iOS_Hypori_MH.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +54,18 @@
 		69F101CFCB3324C81C18B5AC /* Pods-Hypori-MHTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hypori-MHTests.release.xcconfig"; path = "Target Support Files/Pods-Hypori-MHTests/Pods-Hypori-MHTests.release.xcconfig"; sourceTree = "<group>"; };
 		84B73ED5FCA9F90034155126 /* Pods_Hypori_MH_iOS_Hypori_MH.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hypori_MH_iOS_Hypori_MH.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB168BA0C1B9385AECB709C1 /* Pods-Hypori-MH-iOS-Hypori-MH.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hypori-MH-iOS-Hypori-MH.debug.xcconfig"; path = "Target Support Files/Pods-Hypori-MH-iOS-Hypori-MH/Pods-Hypori-MH-iOS-Hypori-MH.debug.xcconfig"; sourceTree = "<group>"; };
+		E65624FD26ACA5B400F3C969 /* StarWarsAPITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsAPITests.m; sourceTree = "<group>"; };
+		E65624FF26ACA5E200F3C969 /* StarWarsAPI+Mock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "StarWarsAPI+Mock.h"; sourceTree = "<group>"; };
+		E656250026ACA5E200F3C969 /* StarWarsAPI+Mock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "StarWarsAPI+Mock.m"; sourceTree = "<group>"; };
+		E656250326AD75A000F3C969 /* NSArray+Map.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSArray+Map.h"; sourceTree = "<group>"; };
+		E656250426AD75A000F3C969 /* NSArray+Map.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Map.m"; sourceTree = "<group>"; };
+		E656250926AD79B100F3C969 /* NSObject+Mappable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Mappable.h"; sourceTree = "<group>"; };
+		E656250A26AD79B100F3C969 /* NSObject+Mappable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Mappable.m"; sourceTree = "<group>"; };
+		E656250D26AD7B0400F3C969 /* Mappable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Mappable.h; sourceTree = "<group>"; };
+		E656251126AD7ED200F3C969 /* InCodeMappingProvider+URL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InCodeMappingProvider+URL.h"; sourceTree = "<group>"; };
+		E656251226AD7ED200F3C969 /* InCodeMappingProvider+URL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "InCodeMappingProvider+URL.m"; sourceTree = "<group>"; };
+		E656251526AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InCodeMappingProvider+ISO8601.h"; sourceTree = "<group>"; };
+		E656251626AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "InCodeMappingProvider+ISO8601.m"; sourceTree = "<group>"; };
 		E6E2786B26AAE0CD002E58E9 /* Hypori-MH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypori-MH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E2786E26AAE0CD002E58E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -49,6 +82,24 @@
 		E6E278A726AAE9A4002E58E9 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		E6E278A826AAEA78002E58E9 /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile.lock; sourceTree = "<group>"; };
 		E6E278A926AAEA89002E58E9 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		E6E278AB26AAF3BE002E58E9 /* StarWarsAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsAPI.h; sourceTree = "<group>"; };
+		E6E278AC26AAF3BE002E58E9 /* StarWarsAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsAPI.m; sourceTree = "<group>"; };
+		E6E278B026AAF417002E58E9 /* NetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NetworkClient.h; sourceTree = "<group>"; };
+		E6E278B126AAF417002E58E9 /* NetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkClient.m; sourceTree = "<group>"; };
+		E6E278B626AAF7B7002E58E9 /* Cancellable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cancellable.h; sourceTree = "<group>"; };
+		E6E278B726AAF820002E58E9 /* NSURLSessionTask+Cancellable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSURLSessionTask+Cancellable.h"; sourceTree = "<group>"; };
+		E6E278B826AAF820002E58E9 /* NSURLSessionTask+Cancellable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSURLSessionTask+Cancellable.m"; sourceTree = "<group>"; };
+		E6E278BA26AAF877002E58E9 /* AnyCancellable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyCancellable.h; sourceTree = "<group>"; };
+		E6E278BB26AAF877002E58E9 /* AnyCancellable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AnyCancellable.m; sourceTree = "<group>"; };
+		E6E278BE26AC2180002E58E9 /* Page.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Page.h; sourceTree = "<group>"; };
+		E6E278BF26AC2180002E58E9 /* Page.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Page.m; sourceTree = "<group>"; };
+		E6E278C126AC218B002E58E9 /* Film.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Film.h; sourceTree = "<group>"; };
+		E6E278C226AC218B002E58E9 /* Film.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Film.m; sourceTree = "<group>"; };
+		E6E278C426AC331E002E58E9 /* NSError+API.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSError+API.h"; sourceTree = "<group>"; };
+		E6E278C526AC331E002E58E9 /* NSError+API.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSError+API.m"; sourceTree = "<group>"; };
+		E6E278C826AC3544002E58E9 /* MockNetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MockNetworkClient.h; sourceTree = "<group>"; };
+		E6E278C926AC3544002E58E9 /* MockNetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MockNetworkClient.m; sourceTree = "<group>"; };
+		E6E278CD26AC361D002E58E9 /* APIMocks.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = APIMocks.bundle; sourceTree = "<group>"; };
 		ECD00C1FDBE123811987FF37 /* Pods_Hypori_MHTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hypori_MHTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ECE9D54BC6DB90B874D1A54D /* Pods-Hypori-MH-iOS-Hypori-MH.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hypori-MH-iOS-Hypori-MH.release.xcconfig"; path = "Target Support Files/Pods-Hypori-MH-iOS-Hypori-MH/Pods-Hypori-MH-iOS-Hypori-MH.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -93,6 +144,53 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		E65624FC26ACA59800F3C969 /* Mocks */ = {
+			isa = PBXGroup;
+			children = (
+				E6E278C826AC3544002E58E9 /* MockNetworkClient.h */,
+				E6E278C926AC3544002E58E9 /* MockNetworkClient.m */,
+				E65624FF26ACA5E200F3C969 /* StarWarsAPI+Mock.h */,
+				E656250026ACA5E200F3C969 /* StarWarsAPI+Mock.m */,
+				E6E278CD26AC361D002E58E9 /* APIMocks.bundle */,
+			);
+			path = Mocks;
+			sourceTree = "<group>";
+		};
+		E656250226AD758D00F3C969 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				E656250326AD75A000F3C969 /* NSArray+Map.h */,
+				E656250426AD75A000F3C969 /* NSArray+Map.m */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		E656250F26AD7DA500F3C969 /* Cancellable */ = {
+			isa = PBXGroup;
+			children = (
+				E6E278B626AAF7B7002E58E9 /* Cancellable.h */,
+				E6E278B726AAF820002E58E9 /* NSURLSessionTask+Cancellable.h */,
+				E6E278B826AAF820002E58E9 /* NSURLSessionTask+Cancellable.m */,
+				E6E278BA26AAF877002E58E9 /* AnyCancellable.h */,
+				E6E278BB26AAF877002E58E9 /* AnyCancellable.m */,
+			);
+			path = Cancellable;
+			sourceTree = "<group>";
+		};
+		E656251026AD7DB100F3C969 /* Mappable */ = {
+			isa = PBXGroup;
+			children = (
+				E656250D26AD7B0400F3C969 /* Mappable.h */,
+				E656250926AD79B100F3C969 /* NSObject+Mappable.h */,
+				E656250A26AD79B100F3C969 /* NSObject+Mappable.m */,
+				E656251126AD7ED200F3C969 /* InCodeMappingProvider+URL.h */,
+				E656251226AD7ED200F3C969 /* InCodeMappingProvider+URL.m */,
+				E656251526AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.h */,
+				E656251626AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.m */,
+			);
+			path = Mappable;
+			sourceTree = "<group>";
+		};
 		E6E2786226AAE0CD002E58E9 = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +220,10 @@
 				E6E2786E26AAE0CD002E58E9 /* AppDelegate.h */,
 				E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */,
 				E6E278A326AAE83A002E58E9 /* UI */,
+				E6E278AA26AAF2B6002E58E9 /* API */,
+				E6E278BD26AC2130002E58E9 /* Models */,
+				E6E278B526AAF7A6002E58E9 /* Utlities */,
+				E656250226AD758D00F3C969 /* Extensions */,
 				E6E2787726AAE0CD002E58E9 /* Main.storyboard */,
 				E6E2787A26AAE0D1002E58E9 /* Assets.xcassets */,
 				E6E2787C26AAE0D1002E58E9 /* LaunchScreen.storyboard */,
@@ -135,6 +237,7 @@
 			isa = PBXGroup;
 			children = (
 				E6E2788A26AAE0D2002E58E9 /* Hypori_MHTests.m */,
+				E6E278C726AC3516002E58E9 /* API */,
 				E6E2788C26AAE0D2002E58E9 /* Info.plist */,
 			);
 			path = "Hypori-MHTests";
@@ -149,7 +252,73 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		E6E278AA26AAF2B6002E58E9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E6E278AE26AAF3DA002E58E9 /* NetworkClient */,
+				E6E278AB26AAF3BE002E58E9 /* StarWarsAPI.h */,
+				E6E278AC26AAF3BE002E58E9 /* StarWarsAPI.m */,
+				E6E278C426AC331E002E58E9 /* NSError+API.h */,
+				E6E278C526AC331E002E58E9 /* NSError+API.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		E6E278AE26AAF3DA002E58E9 /* NetworkClient */ = {
+			isa = PBXGroup;
+			children = (
+				E6E278B026AAF417002E58E9 /* NetworkClient.h */,
+				E6E278B126AAF417002E58E9 /* NetworkClient.m */,
+			);
+			path = NetworkClient;
+			sourceTree = "<group>";
+		};
+		E6E278B526AAF7A6002E58E9 /* Utlities */ = {
+			isa = PBXGroup;
+			children = (
+				E656250F26AD7DA500F3C969 /* Cancellable */,
+				E656251026AD7DB100F3C969 /* Mappable */,
+			);
+			path = Utlities;
+			sourceTree = "<group>";
+		};
+		E6E278BD26AC2130002E58E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				E6E278BE26AC2180002E58E9 /* Page.h */,
+				E6E278BF26AC2180002E58E9 /* Page.m */,
+				E6E278C126AC218B002E58E9 /* Film.h */,
+				E6E278C226AC218B002E58E9 /* Film.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E6E278C726AC3516002E58E9 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				E65624FC26ACA59800F3C969 /* Mocks */,
+				E65624FD26ACA5B400F3C969 /* StarWarsAPITests.m */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E65624F726AC748E00F3C969 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E656251326AD7ED200F3C969 /* InCodeMappingProvider+URL.h in Headers */,
+				E656251726AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.h in Headers */,
+				E656250526AD75A000F3C969 /* NSArray+Map.h in Headers */,
+				E656250B26AD79B100F3C969 /* NSObject+Mappable.h in Headers */,
+				E656250E26AD7B0400F3C969 /* Mappable.h in Headers */,
+				E65624FB26AC74AD00F3C969 /* NetworkClient.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		E6E2786A26AAE0CD002E58E9 /* Hypori-MH */ = {
@@ -157,6 +326,7 @@
 			buildConfigurationList = E6E2789A26AAE0D2002E58E9 /* Build configuration list for PBXNativeTarget "Hypori-MH" */;
 			buildPhases = (
 				5FC2DBCEA836AD56ACB7AF57 /* [CP] Check Pods Manifest.lock */,
+				E65624F726AC748E00F3C969 /* Headers */,
 				E6E2786726AAE0CD002E58E9 /* Sources */,
 				E6E2786826AAE0CD002E58E9 /* Frameworks */,
 				E6E2786926AAE0CD002E58E9 /* Resources */,
@@ -241,6 +411,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E278CE26AC361D002E58E9 /* APIMocks.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,8 +486,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6E278B226AAF417002E58E9 /* NetworkClient.m in Sources */,
+				E6E278B926AAF820002E58E9 /* NSURLSessionTask+Cancellable.m in Sources */,
+				E656250C26AD79B100F3C969 /* NSObject+Mappable.m in Sources */,
+				E6E278C626AC331E002E58E9 /* NSError+API.m in Sources */,
+				E656251826AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.m in Sources */,
+				E6E278C026AC2180002E58E9 /* Page.m in Sources */,
+				E6E278C326AC218B002E58E9 /* Film.m in Sources */,
 				E6E278A626AAE857002E58E9 /* FilmsViewController.m in Sources */,
+				E6E278BC26AAF877002E58E9 /* AnyCancellable.m in Sources */,
+				E6E278AD26AAF3BE002E58E9 /* StarWarsAPI.m in Sources */,
+				E656250626AD75A000F3C969 /* NSArray+Map.m in Sources */,
 				E6E2787026AAE0CD002E58E9 /* AppDelegate.m in Sources */,
+				E656251426AD7ED200F3C969 /* InCodeMappingProvider+URL.m in Sources */,
 				E6E2788126AAE0D1002E58E9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +508,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E2788B26AAE0D2002E58E9 /* Hypori_MHTests.m in Sources */,
+				E65624FE26ACA5B400F3C969 /* StarWarsAPITests.m in Sources */,
+				E6E278CA26AC3544002E58E9 /* MockNetworkClient.m in Sources */,
+				E656250126ACA5E200F3C969 /* StarWarsAPI+Mock.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -4,7 +4,7 @@ use_frameworks!
 
 abstract_target 'Hypori-MH-iOS' do
   
-  pod 'SDWebImage'
+  pod 'OCMapper'
   pod 'SkeletonView'
   
   target 'Hypori-MH' do
