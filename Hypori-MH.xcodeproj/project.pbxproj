@@ -20,6 +20,12 @@
 		E656251426AD7ED200F3C969 /* InCodeMappingProvider+URL.m in Sources */ = {isa = PBXBuildFile; fileRef = E656251226AD7ED200F3C969 /* InCodeMappingProvider+URL.m */; };
 		E656251726AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.h in Headers */ = {isa = PBXBuildFile; fileRef = E656251526AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.h */; };
 		E656251826AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.m in Sources */ = {isa = PBXBuildFile; fileRef = E656251626AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.m */; };
+		E656251C26AD913800F3C969 /* StarWarsDomainService.h in Headers */ = {isa = PBXBuildFile; fileRef = E656251A26AD913700F3C969 /* StarWarsDomainService.h */; };
+		E656251D26AD913800F3C969 /* StarWarsDomainService.m in Sources */ = {isa = PBXBuildFile; fileRef = E656251B26AD913700F3C969 /* StarWarsDomainService.m */; };
+		E656252426AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.h in Headers */ = {isa = PBXBuildFile; fileRef = E656252226AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.h */; };
+		E656252526AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.m in Sources */ = {isa = PBXBuildFile; fileRef = E656252326AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.m */; };
+		E656252726AD930D00F3C969 /* StarWarsDomainServiceState.h in Headers */ = {isa = PBXBuildFile; fileRef = E656252626AD930D00F3C969 /* StarWarsDomainServiceState.h */; };
+		E656252926AD949900F3C969 /* StarWarsDomainServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E656252826AD949900F3C969 /* StarWarsDomainServiceTests.m */; };
 		E6E2787026AAE0CD002E58E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */; };
 		E6E2787926AAE0CD002E58E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787726AAE0CD002E58E9 /* Main.storyboard */; };
 		E6E2787B26AAE0D1002E58E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787A26AAE0D1002E58E9 /* Assets.xcassets */; };
@@ -66,6 +72,12 @@
 		E656251226AD7ED200F3C969 /* InCodeMappingProvider+URL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "InCodeMappingProvider+URL.m"; sourceTree = "<group>"; };
 		E656251526AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "InCodeMappingProvider+ISO8601.h"; sourceTree = "<group>"; };
 		E656251626AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "InCodeMappingProvider+ISO8601.m"; sourceTree = "<group>"; };
+		E656251A26AD913700F3C969 /* StarWarsDomainService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsDomainService.h; sourceTree = "<group>"; };
+		E656251B26AD913700F3C969 /* StarWarsDomainService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsDomainService.m; sourceTree = "<group>"; };
+		E656252226AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsDomainServiceInMemoryState.h; sourceTree = "<group>"; };
+		E656252326AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsDomainServiceInMemoryState.m; sourceTree = "<group>"; };
+		E656252626AD930D00F3C969 /* StarWarsDomainServiceState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsDomainServiceState.h; sourceTree = "<group>"; };
+		E656252826AD949900F3C969 /* StarWarsDomainServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsDomainServiceTests.m; sourceTree = "<group>"; };
 		E6E2786B26AAE0CD002E58E9 /* Hypori-MH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypori-MH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E2786E26AAE0CD002E58E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -191,6 +203,26 @@
 			path = Mappable;
 			sourceTree = "<group>";
 		};
+		E656251926AD912200F3C969 /* DomainServices */ = {
+			isa = PBXGroup;
+			children = (
+				E656251A26AD913700F3C969 /* StarWarsDomainService.h */,
+				E656251B26AD913700F3C969 /* StarWarsDomainService.m */,
+				E656252626AD930D00F3C969 /* StarWarsDomainServiceState.h */,
+				E656252226AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.h */,
+				E656252326AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.m */,
+			);
+			path = DomainServices;
+			sourceTree = "<group>";
+		};
+		E656252A26AE844300F3C969 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				E656252826AD949900F3C969 /* StarWarsDomainServiceTests.m */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		E6E2786226AAE0CD002E58E9 = {
 			isa = PBXGroup;
 			children = (
@@ -220,6 +252,7 @@
 				E6E2786E26AAE0CD002E58E9 /* AppDelegate.h */,
 				E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */,
 				E6E278A326AAE83A002E58E9 /* UI */,
+				E656251926AD912200F3C969 /* DomainServices */,
 				E6E278AA26AAF2B6002E58E9 /* API */,
 				E6E278BD26AC2130002E58E9 /* Models */,
 				E6E278B526AAF7A6002E58E9 /* Utlities */,
@@ -238,6 +271,7 @@
 			children = (
 				E6E2788A26AAE0D2002E58E9 /* Hypori_MHTests.m */,
 				E6E278C726AC3516002E58E9 /* API */,
+				E656252A26AE844300F3C969 /* Services */,
 				E6E2788C26AAE0D2002E58E9 /* Info.plist */,
 			);
 			path = "Hypori-MHTests";
@@ -309,7 +343,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E656252726AD930D00F3C969 /* StarWarsDomainServiceState.h in Headers */,
+				E656252426AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.h in Headers */,
 				E656251326AD7ED200F3C969 /* InCodeMappingProvider+URL.h in Headers */,
+				E656251C26AD913800F3C969 /* StarWarsDomainService.h in Headers */,
 				E656251726AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.h in Headers */,
 				E656250526AD75A000F3C969 /* NSArray+Map.h in Headers */,
 				E656250B26AD79B100F3C969 /* NSObject+Mappable.h in Headers */,
@@ -488,11 +525,13 @@
 			files = (
 				E6E278B226AAF417002E58E9 /* NetworkClient.m in Sources */,
 				E6E278B926AAF820002E58E9 /* NSURLSessionTask+Cancellable.m in Sources */,
+				E656251D26AD913800F3C969 /* StarWarsDomainService.m in Sources */,
 				E656250C26AD79B100F3C969 /* NSObject+Mappable.m in Sources */,
 				E6E278C626AC331E002E58E9 /* NSError+API.m in Sources */,
 				E656251826AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.m in Sources */,
 				E6E278C026AC2180002E58E9 /* Page.m in Sources */,
 				E6E278C326AC218B002E58E9 /* Film.m in Sources */,
+				E656252526AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.m in Sources */,
 				E6E278A626AAE857002E58E9 /* FilmsViewController.m in Sources */,
 				E6E278BC26AAF877002E58E9 /* AnyCancellable.m in Sources */,
 				E6E278AD26AAF3BE002E58E9 /* StarWarsAPI.m in Sources */,
@@ -508,6 +547,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E6E2788B26AAE0D2002E58E9 /* Hypori_MHTests.m in Sources */,
+				E656252926AD949900F3C969 /* StarWarsDomainServiceTests.m in Sources */,
 				E65624FE26ACA5B400F3C969 /* StarWarsAPITests.m in Sources */,
 				E6E278CA26AC3544002E58E9 /* MockNetworkClient.m in Sources */,
 				E656250126ACA5E200F3C969 /* StarWarsAPI+Mock.m in Sources */,

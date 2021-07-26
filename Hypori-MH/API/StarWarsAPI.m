@@ -20,6 +20,11 @@
 
 @implementation StarWarsAPI
 
+- (instancetype)init {
+    
+    return [self initWithNetworkClient:[[NetworkClient alloc] init]];
+}
+
 - (instancetype)initWithNetworkClient:(id<NetworkClient>)networkClient {
     
     return [self initWithNetworkClient:networkClient baseURL:[[NSURL alloc] initWithString:@"https://swapi.dev/api"]];
