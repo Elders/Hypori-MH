@@ -26,6 +26,9 @@
 		E656252526AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.m in Sources */ = {isa = PBXBuildFile; fileRef = E656252326AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.m */; };
 		E656252726AD930D00F3C969 /* StarWarsDomainServiceState.h in Headers */ = {isa = PBXBuildFile; fileRef = E656252626AD930D00F3C969 /* StarWarsDomainServiceState.h */; };
 		E656252926AD949900F3C969 /* StarWarsDomainServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E656252826AD949900F3C969 /* StarWarsDomainServiceTests.m */; };
+		E656252D26AE9FAF00F3C969 /* SkeletonView+ObjC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E656252C26AE9FAF00F3C969 /* SkeletonView+ObjC.swift */; };
+		E656257726AEB67B00F3C969 /* FilmTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = E656257526AEB67B00F3C969 /* FilmTableViewCell.h */; };
+		E656257826AEB67B00F3C969 /* FilmTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E656257626AEB67B00F3C969 /* FilmTableViewCell.m */; };
 		E6E2787026AAE0CD002E58E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */; };
 		E6E2787926AAE0CD002E58E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787726AAE0CD002E58E9 /* Main.storyboard */; };
 		E6E2787B26AAE0D1002E58E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E6E2787A26AAE0D1002E58E9 /* Assets.xcassets */; };
@@ -78,6 +81,10 @@
 		E656252326AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsDomainServiceInMemoryState.m; sourceTree = "<group>"; };
 		E656252626AD930D00F3C969 /* StarWarsDomainServiceState.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StarWarsDomainServiceState.h; sourceTree = "<group>"; };
 		E656252826AD949900F3C969 /* StarWarsDomainServiceTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StarWarsDomainServiceTests.m; sourceTree = "<group>"; };
+		E656252C26AE9FAF00F3C969 /* SkeletonView+ObjC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SkeletonView+ObjC.swift"; sourceTree = "<group>"; };
+		E656257426AEA2DE00F3C969 /* Hypori-MH-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hypori-MH-Bridging-Header.h"; sourceTree = "<group>"; };
+		E656257526AEB67B00F3C969 /* FilmTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FilmTableViewCell.h; sourceTree = "<group>"; };
+		E656257626AEB67B00F3C969 /* FilmTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FilmTableViewCell.m; sourceTree = "<group>"; };
 		E6E2786B26AAE0CD002E58E9 /* Hypori-MH.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hypori-MH.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6E2786E26AAE0CD002E58E9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E6E2786F26AAE0CD002E58E9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -173,6 +180,7 @@
 			children = (
 				E656250326AD75A000F3C969 /* NSArray+Map.h */,
 				E656250426AD75A000F3C969 /* NSArray+Map.m */,
+				E656252C26AE9FAF00F3C969 /* SkeletonView+ObjC.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -262,6 +270,7 @@
 				E6E2787C26AAE0D1002E58E9 /* LaunchScreen.storyboard */,
 				E6E2787F26AAE0D1002E58E9 /* Info.plist */,
 				E6E2788026AAE0D1002E58E9 /* main.m */,
+				E656257426AEA2DE00F3C969 /* Hypori-MH-Bridging-Header.h */,
 			);
 			path = "Hypori-MH";
 			sourceTree = "<group>";
@@ -282,6 +291,8 @@
 			children = (
 				E6E278A426AAE857002E58E9 /* FilmsViewController.h */,
 				E6E278A526AAE857002E58E9 /* FilmsViewController.m */,
+				E656257526AEB67B00F3C969 /* FilmTableViewCell.h */,
+				E656257626AEB67B00F3C969 /* FilmTableViewCell.m */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -349,6 +360,7 @@
 				E656251C26AD913800F3C969 /* StarWarsDomainService.h in Headers */,
 				E656251726AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.h in Headers */,
 				E656250526AD75A000F3C969 /* NSArray+Map.h in Headers */,
+				E656257726AEB67B00F3C969 /* FilmTableViewCell.h in Headers */,
 				E656250B26AD79B100F3C969 /* NSObject+Mappable.h in Headers */,
 				E656250E26AD7B0400F3C969 /* Mappable.h in Headers */,
 				E65624FB26AC74AD00F3C969 /* NetworkClient.h in Headers */,
@@ -407,6 +419,7 @@
 				TargetAttributes = {
 					E6E2786A26AAE0CD002E58E9 = {
 						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
 					};
 					E6E2788526AAE0D2002E58E9 = {
 						CreatedOnToolsVersion = 12.5.1;
@@ -529,6 +542,8 @@
 				E656250C26AD79B100F3C969 /* NSObject+Mappable.m in Sources */,
 				E6E278C626AC331E002E58E9 /* NSError+API.m in Sources */,
 				E656251826AD8F4C00F3C969 /* InCodeMappingProvider+ISO8601.m in Sources */,
+				E656252D26AE9FAF00F3C969 /* SkeletonView+ObjC.swift in Sources */,
+				E656257826AEB67B00F3C969 /* FilmTableViewCell.m in Sources */,
 				E6E278C026AC2180002E58E9 /* Page.m in Sources */,
 				E6E278C326AC218B002E58E9 /* Film.m in Sources */,
 				E656252526AD92DD00F3C969 /* StarWarsDomainServiceInMemoryState.m in Sources */,
@@ -703,14 +718,29 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Hypori-MH/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"OCMapper\"",
+					"-framework",
+					"\"SkeletonView\"",
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eldersoss.Hypori-MH";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hypori-MH/Hypori-MH-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
@@ -722,14 +752,28 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Hypori-MH/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"OCMapper\"",
+					"-framework",
+					"\"SkeletonView\"",
+					"-all_load",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.eldersoss.Hypori-MH";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Hypori-MH/Hypori-MH-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
@@ -738,6 +782,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 55B8F30BB81369AF6ED33F31 /* Pods-Hypori-MHTests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Hypori-MHTests/Info.plist";
@@ -757,6 +802,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 69F101CFCB3324C81C18B5AC /* Pods-Hypori-MHTests.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "Hypori-MHTests/Info.plist";
