@@ -8,6 +8,7 @@
 #import "FilmsViewController.h"
 #import "Hypori_MH-Swift.h"
 #import "FilmTableViewCell.h"
+#import "FilmViewController.h"
 
 @interface FilmsViewController ()
 
@@ -26,6 +27,14 @@
     
     [self loadData];
     [self updateData];
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    
+    if ([segue.identifier isEqualToString: @"showFilmDetails"] && [segue.destinationViewController isKindOfClass:[FilmViewController class]]) {
+        
+        ((FilmViewController*)segue.destinationViewController).film = sender;
+    }
 }
 
 - (StarWarsDomainService *)service {
@@ -110,6 +119,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
+    [self performSegueWithIdentifier:@"showFilmDetails" sender:self.films[indexPath.row]];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView estimatedHeightForRowAtIndexPath:(NSIndexPath *)indexPath {
