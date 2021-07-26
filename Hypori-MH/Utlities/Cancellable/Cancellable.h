@@ -9,6 +9,12 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/*
+ Dev Notes:
+ This is based on Combine.framework
+ */
+
+
 @protocol Cancellable <NSObject>
 
 -(void)cancel;

@@ -19,6 +19,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(id<Cancellable>)getFilmsWithCompletionHandler:(void(^)(Page<Film*> * _Nullable page, NSError * _Nullable error))completionHandler;
 
+/*
+ Dev Notes:
+ This can be updated with other endpoints as well.
+ */
+
 @end
 
 NS_ASSUME_NONNULL_END

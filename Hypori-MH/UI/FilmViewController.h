@@ -14,6 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, strong) Film *film;
 
+/*
+ Dev Notes:
+ This can be updated to accept a film URL and fetch it. This would allow to handle links from the API.
+ */
+
 @end
 
 NS_ASSUME_NONNULL_END

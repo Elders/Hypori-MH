@@ -10,6 +10,11 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
+/*
+ Dev Notes:
+ Extensions to make OCMapper more convenient to use.
+ */
+
 @protocol Mappable <NSObject>
 
 + (id)objectFromDictionary:(NSDictionary *)dictionary;

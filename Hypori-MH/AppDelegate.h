@@ -13,3 +13,9 @@
 
 @end
 
+/*
+ Dev Notes:
+ I would never ever use Objective-C by default anymore, but these were the requirements.
+ The JSON mapping is so inconvenient, compared to Swift's Codable.
+ SwiftUI is the best approach.
+ */

@@ -14,6 +14,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(nonatomic, strong) StarWarsDomainService *service;
 
+/*
+ Dev Notes:
+ This can be updated to accept collection of film URLs and fetch them. This would allow to handle links from the API.
+ */
+
 @end
 
 NS_ASSUME_NONNULL_END

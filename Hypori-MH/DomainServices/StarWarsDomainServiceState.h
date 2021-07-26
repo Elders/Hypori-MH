@@ -16,3 +16,8 @@ NS_ASSUME_NONNULL_BEGIN
 @end
 
 NS_ASSUME_NONNULL_END
+
+/*
+ Dev Notes:
+ StarWarsDomainServicePersistentState can be implemented in order to store and cache the data by dev's choice. I would use storing the data into JSON files.
+ */

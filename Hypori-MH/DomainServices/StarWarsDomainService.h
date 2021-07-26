@@ -20,6 +20,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(id<Cancellable>)loadFilmsWithCompletionHandler:(void(^)(NSArray<Film*> * _Nullable films, NSError * _Nullable error))completionHandler;
 
+/*
+ Dev Notes:
+ This can be updated with other data types as well.
+ */
+
+
 @end
 
 NS_ASSUME_NONNULL_END
